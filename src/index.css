@@ -10,3 +10,7 @@ body {
   background: #262626;
   font-family: 'Poiret One', cursive;
 }
+
+img {
+  width: 200px
+}

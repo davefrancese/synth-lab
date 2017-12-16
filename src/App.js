@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import About from './components/About'
+import SynthList from './components/SynthList'
+
 
 class App extends Component {
   constructor(props) {
@@ -114,6 +116,8 @@ class App extends Component {
         <h1>SYNTH LAB</h1>
         <p>Curated by Dave Francese</p>
         </header>
+        <About />
+        <SynthList synths={this.state.synths}/>
       </div>
     );
   }
